@@ -67,7 +67,7 @@ Product.propTypes = {
 
 const ProductWrapper =styled.div`
 .card{
-    boder-color:transparent;
+    border-color:transparent;
     transition:all 1s linear;
 }
 .card-footer{

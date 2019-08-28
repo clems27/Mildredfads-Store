@@ -23,6 +23,57 @@ export default class Navbar extends Component{
                             </Link>
                         </li>
                         </ul>
+
+                        <ul className="dropdown navbar-nav align-items-center">
+                            <Link to="/men"className="dropbtn nav-link">men</Link>
+                            <li className="dropdown-content nav-item ml-2">
+                                < Link to="#" className="nav-link">link 1</Link>
+                                <Link to="#" className="nav-link">link 2</Link>
+                            </li>
+                        </ul>
+
+                        <ul className="dropdown navbar-nav align-items-center">
+                            <Link to="/women"className="dropbtn nav-link">women</Link>
+                            <li className="dropdown-content nav-item ml-2">
+                                < Link to="#" className="nav-link">link 1</Link>
+                                <Link to="#" className="nav-link">link 2</Link>
+                            </li>
+                        </ul>
+
+                        <ul className="dropdown navbar-nav align-items-center">
+                            <Link to="/accessories"className="dropbtn nav-link">accessories</Link>
+                            <li className="dropdown-content nav-item ml-2">
+                                < Link to="#" className="nav-link">link 1</Link>
+                                <Link to="#" className="nav-link">link 2</Link>
+                            </li>
+                        </ul>
+
+
+                        <ul className="dropdown navbar-nav align-items-center">
+                            <Link to="/login" className="dropbtn nav-link">acoount</Link>
+                            <li className="dropdown-content nav-item ml-2">
+                                < Link to="/login" className="nav-link">login</Link>
+                                <Link to="/signup" className="nav-link">sign up</Link>
+                            </li>
+                        </ul>
+
+
+
+                        {/* <ul className="navbar-nav align-items-center">
+                        <li className="nav-item ml-5">
+                            <Link to="/login" className="nav-link">
+                            login
+                            </Link>
+                        </li>
+                        </ul>
+
+                        <ul className="navbar-nav align-items-center">
+                        <li className="nav-item ml-5">
+                            <Link to="/signup" className="nav-link">
+                            signup
+                            </Link>
+                        </li>
+                        </ul> */}
                         <Link to="/cart" className="ml-auto">
                             <ButtonContainer>
                                 <span className="mr-2">

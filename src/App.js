@@ -7,7 +7,12 @@ import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default'; 
-import Modal from './components/Modal'
+import Modal from './components/Modal';
+import Login from './components/Register/Login';
+import SignUP from './components/Register/SignUp';
+import Men from './components/Men';
+import Women from './components/Women';
+import Accessories from './components/Accessories';
 
 class App extends Component {
   render() {
@@ -17,6 +22,11 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
+        <Route path="/men" component={Men} />
+        <Route path="/women" component={Women} />
+        <Route path="/accessories" component={Accessories} />
+        <Route path="/login" component={Login} />
+        <Route path="/signup" component={SignUP} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
       </Switch>
